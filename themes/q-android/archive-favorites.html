@@ -6,7 +6,7 @@
 <!-- First we check that the addon is activated for the app -->
 <% if( TemplateTags.addonIsActive( 'wpak-addon-favorites' ) && TemplateTags.isComponentTypeLoaded( 'favorites' ) ) { %>
   <!-- Note the use of TemplateTags.getPostDataAttributes() and WpakFavorites.getIsFavoriteClass() -->
-  <div class="favorite-toggle <%= WpakFavorites.getIsFavoriteClass( post.id ) %>" <%= TemplateTags.getPostDataAttributes( post.id ) %>>
+  <div class="favorite-toggle <%= WpakFavorites.getIsFavoriteClass( post.id ) %> <%= TemplateTags.getPostDataAttributes( post.id ) %>">
     <svg class="favorite-star" viewBox="0 0 512 512"><path d="..."/></svg>
   </div>
 <% } %>
