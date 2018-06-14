@@ -18,7 +18,7 @@
 	<preference name="xwalkMultipleApk" value="true" />
 	<preference name="android-build-tool" value="gradle" />
 
-	<preference name="phonegap-version" value="8.0.0" />
+	<preference name="phonegap-version" value="cli-8.0.0" />
 	<preference name="permissions" value="none"/>
 
 	<preference name="disallowOverscroll" value="true" />
@@ -31,8 +31,8 @@
 	<plugin name="cordova-plugin-splashscreen" source="npm" />
 	<plugin name="cordova-plugin-device" source="npm" />
 	<plugin name="cordova-plugin-statusbar" source="npm" />
-	<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" source="npm" />
-	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
+	<!--<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" source="npm" />
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" /> -->
 
 	<!-- Whitelist policy  -->
 	<access origin="*" />
