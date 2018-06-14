@@ -6,7 +6,7 @@ define( function ( require ) {
 		app_slug : 'sharon-adugegalu',
 		wp_ws_url : 'http://kannadachristiansongs.in/test-recipes/wp-appkit-api/sharon-adugegalu',
 		wp_url : 'http://kannadachristiansongs.in/test-recipes',
-		theme : 'q-android',
+		theme : 'q-android-feat-favorites',
 		version : '1',
 		app_type : 'phonegap-build',
 		app_title : 'Sharon Adugegalu',
