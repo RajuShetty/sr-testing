@@ -1,8 +1,11 @@
-<div class="search-container">
-    <input value="<%= current_search.search_string %>" id="search-field" class="search-field" type="search" /><button id="search-button" class="search-button">Search</button>
-</div>
+
 <!-- Launch content for 'post-list' default screen -->
 <div id="content" class="content list-template launch-content">
+<div class="search-container">
+    <form id="search-form">
+            <input value="<%= current_search.search_string %>" id="search-field" class="search-field" type="search" /><button id="search-button" class="search-button">Search</button>
+    </form>
+</div>
 
     <div class="content-item has-ripple-feedback">
         <a href="#">
