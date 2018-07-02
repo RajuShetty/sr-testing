@@ -3,7 +3,9 @@
  * Subhead: is added by add-custom-data.php in the theme's php folder / It expects that the post has a subhead custom field
  * Handler for image loading error: displayDefaultImage() added in functions.js as a template's parameter
 -->
-
+<div class="search-container">
+    <input value="<%= current_search.search_string %>" id="search-field" class="search-field" type="search" /><button id="search-button" class="search-button">Search</button>
+</div>
 <div id="content" class="content list-template">
 
 	<% if(posts.length){ %>
